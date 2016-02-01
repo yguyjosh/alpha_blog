@@ -1,4 +1,7 @@
 $navbar-default-bg: black;
+.btn {
+    color: #fff !important;
+}
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -51,13 +54,24 @@ $navbar-default-bg: black;
     margin-top: 0px;
 }
 
-footer{
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer {
     margin-top: 45px;
     padding-top: 5px;
-    border-top: 1px solid #eaeaea;
+    //border-top: 1px solid #eaeaea;
     color: #777;
 }
 
-.footer small {
+footer small {
     float: left;
 }
