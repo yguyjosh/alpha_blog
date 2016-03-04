@@ -3,6 +3,10 @@ $navbar-default-bg: black;
     color: #fff !important;
 }
 
+a:hover {
+    background-color: none !important;
+}
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -75,6 +79,17 @@ $navbar-default-bg: black;
     list-style: none;
     padding-left: 0;
     
+}
+
+.badge {
+    background-color: #CEF6F5;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.input_checkbox {
+    width: auto !important;    
 }
 
 footer {
