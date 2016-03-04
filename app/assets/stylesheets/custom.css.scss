@@ -3,8 +3,8 @@ $navbar-default-bg: black;
     color: #fff !important;
 }
 
-a:hover {
-    background-color: none !important;
+body {
+    a:hover { background-color: none !important;}
 }
 
 @import "bootstrap-sprockets";
